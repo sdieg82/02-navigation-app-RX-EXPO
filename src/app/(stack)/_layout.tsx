@@ -6,13 +6,15 @@ const StackLayout = () => {
         <Stack.Screen
         name='home'
         options={{
-            title:"Home Screen"
+            title:"Home Screen",
+            animation:"ios_from_right"
         }}
         />
         <Stack.Screen
         name='products/index'
         options={{
-            title:"Products Screen"
+            title:"Products Screen",
+            animation:"ios_from_right"
         }}
         />
         <Stack.Screen
