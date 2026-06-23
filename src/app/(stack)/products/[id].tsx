@@ -1,4 +1,4 @@
-import { products } from '@/app/store/products.store';
+import { products } from '@/store/products.store';
 import { Redirect, useLocalSearchParams } from 'expo-router';
 import { StyleSheet, Text, View } from 'react-native';
 

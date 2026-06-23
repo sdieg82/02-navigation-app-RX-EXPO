@@ -1,4 +1,4 @@
-import { products } from '@/app/store/products.store'
+import { products } from '@/store/products.store'
 import { Link } from 'expo-router'
 import { FlatList, StyleSheet, Text, View } from 'react-native'
 
