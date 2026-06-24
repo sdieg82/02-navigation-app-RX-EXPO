@@ -24,7 +24,7 @@ const StackLayout = () => {
                 options={{
                     title: "Settings Screen",
                     animation: "ios_from_right",
-                    // headerShown:false
+                    headerShown:false
                 }}
             />
             <Stack.Screen
@@ -32,7 +32,7 @@ const StackLayout = () => {
                 options={{
                     title: "Profile Screen",
                     animation: "ios_from_right",
-                    // headerShown:false
+                    headerShown:false
                 }}
             />
 
