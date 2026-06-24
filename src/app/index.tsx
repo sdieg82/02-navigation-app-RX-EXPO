@@ -10,7 +10,8 @@ const App = () => {
     //   <Link href={"/home"}> Home</Link> */}
     // </View>
     // </SafeAreaProvider>
-     <Redirect href={"/home"}/>
+    //  <Redirect href={"/home"}/>
+     <Redirect href={"/tabs"}/>
   )
 }
 
