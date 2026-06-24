@@ -7,7 +7,7 @@ const HomeLayout = () => {
     return (
         <SafeAreaView style={styles.container}>
             <View>
-                <Link href={"/profile"} asChild>
+                <Link href={"/tabs/profile"} asChild>
                     <CustomButton
                         style={styles.spacer}
                         color="First"
@@ -15,7 +15,7 @@ const HomeLayout = () => {
                         Perfil
                     </CustomButton>
                 </Link>
-                <Link href={"/products"} asChild>
+                <Link href={"/tabs/(stack)/products"} asChild>
                     <CustomButton
                         style={styles.spacer}
                         color="Secondary"
@@ -23,7 +23,7 @@ const HomeLayout = () => {
                         Productos
                     </CustomButton>
                 </Link>
-                <Link href={"/settings"} asChild>
+                <Link href={"/tabs/settings"} asChild>
                     <CustomButton
                         style={styles.spacer}
                         color="Tertiary"

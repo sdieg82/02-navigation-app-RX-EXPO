@@ -22,7 +22,7 @@ const Products = () => {
             <View style={style.cardFooter}>
               <Text>{item.price}</Text>
               <Link
-              href={`/products/${item.id}`}  
+              href={`/tabs/products/${item.id}`}  
               >Ver detalles
               </Link>
             </View>

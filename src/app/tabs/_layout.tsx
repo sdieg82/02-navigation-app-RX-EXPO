@@ -18,6 +18,13 @@ const TabsLayout = () => {
           tabBarIcon: ({ color }) => <Ionicons size={28} name="star-outline" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="(stack)"
+        options={{
+          title: 'Products',
+          tabBarIcon: ({ color }) => <Ionicons size={28} name="person-add-outline" color={color} />,
+        }}
+      />
     </Tabs>
   )
 }
